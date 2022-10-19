@@ -3,7 +3,7 @@ import { addNavbar } from "../NAVBARFINAL/navbar.js";
 let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
 
 const fetchGenres = async (genreID) => {
-  let res = await fetch("http://localhost:3000/moviedata");
+  let res = await fetch("https://catmock-jsonserver.herokuapp.com/moviedata");
   let data = await res.json();
   // console.log(data.genres);
   getGenres(genreID, data.genres);
