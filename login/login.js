@@ -188,7 +188,7 @@ function checkuser() {
 
     divhover.setAttribute("class", "navlink");
 
-    divhover.innerHTML = ` <a href="../Team-Elite-Hotstar-clone/Profile Page/index.html">My Account</a>
+    divhover.innerHTML = ` <a href="../Profile Page/index.html">My Account</a>
                            <a href="./watchlist/watchlist.html">WatchList</a>
                            <a id="logout" href="">Logout</a>`;
 
